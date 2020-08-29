@@ -1,0 +1,22 @@
+{
+  "name": "testing-vtl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "jest.config.js",
+  "dependencies": {
+    "aws-sdk": "^2.742.0",
+    "jest": "^26.4.2",
+    "ts-jest": "^26.3.0",
+    "typescript": "^4.0.2"
+  },
+  "devDependencies": {
+    "amplify-appsync-simulator": "^1.23.2"
+  },
+  "scripts": {
+    "test": "jest",
+    "init-dynamo": "npx ts-node --files init-dynamo.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
