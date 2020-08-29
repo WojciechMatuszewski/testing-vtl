@@ -3,7 +3,7 @@
 This example shows you how to unit test your `.vtl` resolvers.
 The idea is to use tools exposed by `amplify-appsync-simulator` but do not use the _amplify console_ directly.
 
-Where would you use this? Pretty much everywhere, where you are not using _amplify console_
+Where would you use this? Pretty much everywhere where you are not using _amplify console_
 
 ## How this works
 
