@@ -17,7 +17,13 @@ Next, the `AppSyncUnitResolver` is created. This component actually parses our t
 
 ## How to run this example
 
-First, spin up local `dynamoDB` Docker container
+First, install the dependencies
+
+```bash
+npm install
+```
+
+Next spin up local `dynamoDB` Docker container
 
 ```bash
 make dynamo
